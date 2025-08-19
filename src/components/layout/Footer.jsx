@@ -20,7 +20,7 @@ export default function Footer({ blok }) {
                 placeholder="Email Address"
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-500"
               />
-              <button className="px-6 py-2 bg-gray-900 text-white rounded-r-md hover:bg-gray-800">
+              <button className="px-2 py-3 text-sm  bg-gray-900 text-white rounded-r-md hover:bg-gray-800">
                 Sign Up
               </button>
             </div>
