@@ -1,12 +1,13 @@
+import Header from "./Header";
+import Footer from "./Footer";
+
 //Uses config set global components for the layout
 export default function Layout({ config, children }) {
-    //Create at least a header and footer component
-    //Use console.log to determine blok object structure if unsure...
-    return (
-        <>
-            <header></header>
-            <main>{children}</main>
-            <footer></footer>
-        </>
-    );
+  return (
+    <>
+      <Header blok={config?.content?.header?.[0]} />
+      <main>{children}</main>
+      <Footer blok={config?.content?.footer?.[0]} />
+    </>
+  );
 }
